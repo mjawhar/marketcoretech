@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="MarketCore – the complete e-commerce & marketplace platform for developers and merchants. Built with Spring Boot and TailwindCSS.">
+    <title>MarketCore – Build & Launch Your Marketplace Fast</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .glow { box-shadow: 0 0 60px -10px rgba(99,102,241,0.5); }
+    </style>
+</head>
+
+<body class="bg-gray-950 text-gray-200">
+<!-- Navbar -->
+<header class="fixed w-full z-50 bg-gray-950/80 backdrop-blur-md border-b border-gray-800">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="#" class="text-2xl font-bold text-indigo-400">MarketCore</a>
+        <nav class="hidden md:flex space-x-6 font-medium">
+            <a href="#demo" class="hover:text-indigo-400">Demo</a>
+            <a href="#solutions" class="hover:text-indigo-400">Solutions</a>
+            <a href="#features" class="hover:text-indigo-400">Features</a>
+            <a href="#contact" class="hover:text-indigo-400">Contact</a>
+        </nav>
+        <a href="https://jaouher6.gumroad.com/l/kwwbic" target="_blank" class="hidden md:block bg-indigo-500 text-white font-semibold px-5 py-2 rounded-lg hover:bg-indigo-400 transition">Get Template</a>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="pt-32 pb-24 text-center bg-gradient-to-br from-gray-900 via-indigo-900 to-gray-950 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,rgba(99,102,241,0.3),transparent_60%)]"></div>
+    <div class="relative z-10 max-w-4xl mx-auto px-6">
+        <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight text-white">
+            MarketCore. <span class="text-indigo-400">Two Worlds.</span><br />Developers & Merchants United.
+        </h1>
+        <p class="text-gray-300 text-lg mb-10 max-w-2xl mx-auto">
+            MarketCore is the complete marketplace & e-commerce solution for <strong>developers</strong> who build — and <strong>merchants</strong> who sell.
+            Deploy instantly, manage easily, and grow your business online.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <a href="https://www.demo.marketcore.tech" target="_blank" class="bg-indigo-500 text-white font-semibold px-8 py-3 rounded-lg shadow hover:bg-indigo-400 transition">🚀 Try Live Demo</a>
+            <a href="https://www.youtube.com/watch?v=R6wwDNmx9Tc" target="_blank" class="bg-gray-800 text-gray-100 font-semibold px-8 py-3 rounded-lg hover:bg-gray-700 transition">🎥 Watch Video</a>
+        </div>
+    </div>
+</section>
+
+<!-- Solutions for Devs & Merchants -->
+<section id="solutions" class="py-24 bg-gray-950 text-center">
+    <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-white mb-12">Built for Developers & Merchants</h2>
+        <div class="grid md:grid-cols-2 gap-10">
+            <div class="p-10 rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 border border-gray-700 hover:border-indigo-500 transition glow text-left">
+                <h3 class="text-2xl text-indigo-400 font-semibold mb-4">👨‍💻 For Developers</h3>
+                <p class="text-gray-400 mb-6">Skip months of boilerplate. MarketCore provides a modular, secure, and ready-to-deploy Spring Boot architecture with seller, admin, and user roles included.</p>
+                <ul class="space-y-2 text-gray-300">
+                    <li>✅ Spring Boot 3 + Thymeleaf + TailwindCSS</li>
+                    <li>✅ Spring Security 6 + Role-based access</li>
+                    <li>✅ Configurable marketplace/e-commerce mode</li>
+                </ul>
+            </div>
+            <div class="p-10 rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 border border-gray-700 hover:border-yellow-400 transition glow text-left">
+                <h3 class="text-2xl text-yellow-400 font-semibold mb-4">🛍️ For Merchants</h3>
+                <p class="text-gray-400 mb-6">Start selling online instantly. No coding needed — just add your products, manage orders, and grow your sales on a professional marketplace platform.</p>
+                <ul class="space-y-2 text-gray-300">
+                    <li>✅ Create your online store in minutes</li>
+                    <li>✅ Secure payment & order tracking</li>
+                    <li>✅ Simple admin dashboard to manage everything</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Demo Section -->
+<section id="demo" class="py-24 bg-gradient-to-b from-gray-900 to-gray-950 text-center">
+    <div class="max-w-5xl mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-6 text-white">See MarketCore in Action</h2>
+        <p class="text-gray-400 mb-10">Watch the full walkthrough — from browsing products to managing orders.</p>
+        <div class="relative rounded-2xl overflow-hidden shadow-2xl max-w-3xl mx-auto border border-gray-800">
+            <iframe class="w-full h-[420px]" src="https://www.youtube.com/embed/R6wwDNmx9Tc" title="MarketCore Demo" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="mt-10">
+            <a href="https://www.demo.marketcore.tech" target="_blank" class="inline-block text-indigo-400 hover:underline text-lg">➡️ Try the live demo</a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-24 bg-gray-950 text-center">
+    <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-white mb-6">Contact Us</h2>
+        <p class="text-gray-400 mb-8">Questions, custom setup, or partnership? We’d love to hear from you.</p>
+        <div class="bg-gray-900 rounded-2xl border border-gray-800 p-8 md:p-10 max-w-lg mx-auto">
+            <p class="text-lg text-indigo-300 mb-4 font-semibold">📧 Email:</p>
+            <a href="mailto:contactmarketcore@gmail.com" class="text-xl text-yellow-400 hover:underline font-semibold">contactmarketcore@gmail.com</a>
+            <p class="text-gray-400 mt-6 text-sm">Average response time: under 24 hours.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-950 border-t border-gray-800 py-10 text-center text-gray-500">
+    <p>© 2025 MarketCore – Built with ❤️ using Spring Boot & TailwindCSS</p>
+    <div class="mt-3 space-x-4">
+        <a href="https://github.com/mjawhar" target="_blank" class="hover:text-indigo-400">GitHub</a>
+        <a href="https://www.youtube.com/@jaouher6" target="_blank" class="hover:text-indigo-400">YouTube</a>
+        <a href="https://jaouher6.gumroad.com" target="_blank" class="hover:text-indigo-400">Gumroad</a>
+    </div>
+</footer>
+</body>
+</html>
